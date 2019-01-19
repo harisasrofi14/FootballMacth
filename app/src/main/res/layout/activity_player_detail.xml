@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.PlayerDetailActivity">
+    <include layout="@layout/toolbar"/>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.PlayerDetailActivity">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/layout_content_player"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/iv_player"
+                android:src="@drawable/ic_person"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="150dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_width="0dp">
+
+
+    <TextView
+            android:id="@+id/tvPlayerName"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="@string/dummy_text"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/tvPlayerTeam"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/dummy_text"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/tvPlayerPosition"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/dummy_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:weightSum="2"
+                  android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:text="Weight(KG)"/>
+            <TextView
+                    android:id="@+id/tvPlayerWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="-"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:text="Height (m)"/>
+            <TextView
+                    android:id="@+id/tvPlayerHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="66.8"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+            android:id="@+id/tvPlayerDesc"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_text"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

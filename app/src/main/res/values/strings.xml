@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Goals">Goals</string>
+    <string name="VS">VS</string>
+    <string name="Shots">Shots</string>
+    <string name="Lineups">Lineups</string>
+    <string name="GoalKeeper">Goal Keeper</string>
+    <string name="Defense">Defense</string>
+    <string name="Midfield">Midfield</string>
+    <string name="Forward">Forward</string>
+    <string name="Substitutes">Substitutes</string>
+    <string name="dummy_text">Pauldjsajkdhasjkhdjksa</string>
+    <string name="search_team">"Search Team"</string>
+    <string name="search_next_match">"Search Next Match"</string>
+    <string name="search_last_match">"Search Last Match"</string>
+    <string name="match_over">Match has been over</string>
+</resources>
